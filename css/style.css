@@ -12,8 +12,8 @@ nav{
     padding: 1% 10%;
     justify-content: space-between;
 }
-nav ul li{
-    margin: 1rem;
+li{
+    padding: 1rem;
 }
 a{
     text-decoration: none;
@@ -124,11 +124,12 @@ i{
 #ita{
     width: 10%;
 }
-.italiano
-{
-    padding: 5% 0%;
-}
 #star{
     background-image: url(../img/stars.svg);
-    background-size: cover;
+    background-size: 50%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+strong{
+    font-size: 2rem;
 }
