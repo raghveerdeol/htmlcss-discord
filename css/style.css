@@ -1,0 +1,106 @@
+/* reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: xx-large;
+    font-family: "Cabin", sans-serif;
+}
+nav{
+    background-color: #255ee9;
+    justify-content: space-around;
+    padding: 3%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+header>main{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 5%;
+    color: white;
+}
+nav>div{
+    flex-grow: 2;
+    justify-content: center;
+}
+body>main{
+    width: 70%;
+    margin: 0 auto;
+}
+section{
+    padding: 4%;
+}
+footer{
+    background-color: #23272a;
+    color: white;
+}
+p{
+    padding: 2rem 0;
+}
+h2{
+    font-size: 215%;
+}
+.double-size{
+    width: 200%;
+}
+/* display  */
+.display-container{
+    display: flex;
+
+}
+.align-items{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+
+}
+.center{
+    justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.last-img{
+    width: 100%;
+}
+/* display  */
+/* tasti  */
+button{
+    border: none;
+    border-radius: 2rem;
+    padding: 1%;
+    margin-left: 1rem;
+    font-size: larger;
+}
+.wht-button{
+    background-color: #ffffff;
+}
+.blk-button{
+    background-color: black;
+    color: #ffffff;
+}
+/* tasti  */
+.bk-grey{
+    background-color: #f6f6f6;
+}
+.bg-blu{
+    background-color: #7289da;
+}
+.color-blu{
+    color: #7289d9;
+}
+li::before{
+    content: url(../img/ita.png);
+}
+ul{
+    list-style: none;
+}
