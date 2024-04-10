@@ -5,33 +5,31 @@
     box-sizing: border-box;
 }
 body{
-    font-size: xx-large;
     font-family: "Cabin", sans-serif;
 }
 nav{
     background-color: #255ee9;
-    justify-content: space-around;
-    padding: 3%;
+    padding: 1% 10%;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 1rem;
 }
 a{
     text-decoration: none;
     color: white;
-    padding: 2%;
 }
 header>main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 5%;
+    padding: 9%;
     color: white;
 }
 nav>div{
     flex-grow: 2;
     justify-content: center;
 }
-body>main{
-    width: 70%;
-    margin: 0 auto;
-}
+
 section{
     padding: 4%;
 }
@@ -41,9 +39,19 @@ footer{
 }
 p{
     padding: 2rem 0;
+    line-height: 1.5rem;
 }
-h2{
-    font-size: 215%;
+header main p{
+    width: 46%;
+    text-align: center;
+}
+main section p{
+    width: 62%;
+    text-align: center;
+    font-size: 117%;
+}
+h1,h2{
+    font-size: 300%;
 }
 .double-size{
     width: 200%;
@@ -77,7 +85,7 @@ h2{
 button{
     border: none;
     border-radius: 2rem;
-    padding: 1%;
+    padding: 0.5rem;
     margin-left: 1rem;
     font-size: larger;
 }
@@ -97,9 +105,6 @@ button{
 }
 .color-blu{
     color: #7289d9;
-}
-li::before{
-    content: url(../img/ita.png);
 }
 ul{
     list-style: none;
