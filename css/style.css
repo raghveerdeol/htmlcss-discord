@@ -22,7 +22,7 @@ a{
 header>main{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    padding: 9%;
+    padding: 9.5%;
     color: white;
 }
 nav>div{
@@ -46,16 +46,19 @@ header main p{
     text-align: center;
 }
 main section p{
-    width: 62%;
-    text-align: center;
+    width: 83%;
     font-size: 117%;
 }
 h1,h2{
     font-size: 300%;
 }
 .double-size{
-    width: 200%;
+    width: 50%;
 }
+main section div{
+    width: 29%;
+}
+
 /* display  */
 .display-container{
     display: flex;
@@ -85,7 +88,7 @@ h1,h2{
 button{
     border: none;
     border-radius: 2rem;
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin-left: 1rem;
     font-size: larger;
 }
