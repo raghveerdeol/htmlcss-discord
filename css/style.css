@@ -40,17 +40,21 @@ footer{
 p{
     padding: 2rem 0;
     line-height: 1.5rem;
+    font-size: 117%;
 }
 header main p{
-    width: 46%;
+    width: 56%;
     text-align: center;
 }
 main section p{
     width: 83%;
-    font-size: 117%;
+    text-align: center;
 }
 h1,h2{
     font-size: 300%;
+}
+h3{
+    
 }
 .double-size{
     width: 50%;
@@ -102,13 +106,29 @@ button{
 /* tasti  */
 .bk-grey{
     background-color: #f6f6f6;
+    ;
 }
 .bg-blu{
     background-color: #7289da;
+    color: #ffffff;
 }
 .color-blu{
     color: #7289d9;
 }
 ul{
     list-style: none;
+}
+i{
+    padding-right: 0.7rem;
+}
+#ita{
+    width: 10%;
+}
+.italiano
+{
+    padding: 5% 0%;
+}
+#star{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
 }

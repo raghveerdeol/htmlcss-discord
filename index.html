@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- Fontawesome 6.5.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -33,7 +35,7 @@
                 Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
             </p>
             <div class="display-container">
-                <button class="wht-button">&#8595;Scarica per Mec</button>
+                <button class="wht-button"><span class="freccia">&#8595;</span>Scarica per Mec</button>
                 <button class="blk-button" >Apri Discord nel tuo browser</button>
             </div>
             
@@ -70,8 +72,8 @@
             <h2>Tecnologia affidabile per tenersi in contatto</h2>
             <p>video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
             <img class="last-img" src="./img/item4-big.svg" alt="just-chillin-big">
-            <p><strong>Pronto a iniziare la tua avventura?</strong></p>
-            <button class="bg-blu" >&#8595;Scarica per Mac</button>
+            <p id="star"><strong>Pronto a iniziare la tua avventura?</strong></p>
+            <button class="bg-blu"><span class="freccia" >&#8595;</span>Scarica per Mac</button>
         </section>
 
     </main>
@@ -79,9 +81,20 @@
     <footer>
         <section class="display-container space-around " >
             <div class="display-container column"  >
-                <h2 class="color-blu" >Il tuo posto per parlare</h2>
                 <ul>
-                <li>Italiano</li>
+                    <li><h3 class="color-blu" >Il tuo posto per parlare</h3></li>
+                    <li class="italiano" >
+                        <img id="ita" src="./img/ita.png" alt="italiano">
+                        <span>Italiano</span>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </li>
+                    
+
                 </ul>
             </div>
             <ul class="display-container column space-around">
